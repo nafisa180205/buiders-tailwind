@@ -207,7 +207,7 @@
 
           <!-- text section -->
           <div class="text-center space-y-5">
-            <button class="lg:bg-gray-200 bg-white py-2 px-5 text-base rounded-full  items-center">
+            <button class=" bg-[#ABEF5F33] py-2 px-5 text-base rounded-full  items-center">
               <i class="fa-solid fa-arrow-right pr-2"></i>
               Explore our Latest works
             </button>
@@ -240,14 +240,14 @@
 
             <!-- grid item 2 -->
             <div class=" bg-white border border-gray-100 p-5 lg:col-span-1 rounded-2xl">
-              <img src="./assets/img2.png" alt="">
+              <img src="./assets/img2.png" class="w-full h-full" alt="">
 
             </div>
 
 
             <!-- grid item 3 -->
             <div class=" bg-white border border-gray-100 p-5 lg:col-span-1 rounded-2xl">
-              <img src="./assets/img3.png" alt="">
+              <img src="./assets/img3.png" class="w-full h-full" alt="">
 
             </div>
 
@@ -271,7 +271,7 @@
 
             <!-- grid item 5 -->
             <div class=" bg-white border border-gray-100 p-5 lg:col-span-1 rounded-2xl">
-              <img src="./assets/img5.png" alt="">
+              <img src="./assets/img5.png" class="w-full h-full" alt="">
 
             </div>
 
@@ -282,12 +282,94 @@
 
         </div>
        </section>
+       <!-- ============================================== -->
+
+
+       <!-- form -=-==-=-=-=-==--=-========================= -->
+       <section class="md:pt-16 pt-5 pb-20 paper-bg">
+        <div class="max-w-screen-lg		mx-auto px-5 md:px-10 lg:mx-44 pt-12  flex flex-col justify-center items-center ">
+
+          <!-- text -->
+          <div class="text-center space-y-5 ">
+            <button class=" bg-[#ABEF5F33] py-2 px-5 text-base rounded-full  items-center 
+            w-[200px]">
+              <i class="fa-solid fa-arrow-right pr-2"></i>
+              Let’s Connect
+            </button>
+            <h2 class="text-4xl font-bold">Let’s Discuss Next Project</h2>
+            <p class="text-base font-medium text-[#494949] md:w-3/4 w-full mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+
+          <!-- form grid  -->
+          <div  class=" grid grid-cols-1 lg:grid-cols-2 gap-6 w-full pt-6">
+
+            <div class="w-full">
+              <input class="px-3 py-3 border-none outline-none bg-white rounded-full w-full" type="text" name="" id="" placeholder="First Name*">
+            </div>
+
+            <div class="w-full">
+              <input class="px-3 py-3 border-none outline-none bg-white rounded-full w-full" type="text" name="" id="" placeholder="Last Name*">
+            </div>
+
+            <div class="w-full">
+              <input class="px-3 py-3 border-none outline-none bg-white rounded-full w-full" type="tel" name="" id="" placeholder="Phone Number*">
+            </div>
+
+            <div class="w-full">
+              <input class="px-3 py-3 border-none outline-none bg-white rounded-full w-full" type="email" name="" id="" placeholder="Email Address*">
+            </div>
+
+            <div class="w-full lg:col-span-2 col-span-1">
+              <textarea name="" id="" rows="7"  class="px-3 py-3 border-none outline-none bg-white rounded-3xl w-full" placeholder="Write your message here"></textarea>
+            </div>
+
+            <button class=" lg:col-span-2 col-span-1 flex justify-center items-center gap-2 bg-[#ABEF5F] px-4 py-3 rounded-full w-full mx-auto ">
+              <p class="text-[#1C1C1C] text-xl font-bold ">Send Mail</p>
+              <i class="fa-solid fa-arrow-right -rotate-45 text-lg flex justify-center items-center bg-[#1C1C1C] h-7 w-7  rounded-full text-white	"></i>
+  
+            </button>
+
+            
+
+          
+
+          </div>
+
+
+        </div>
+       </section>
 
     </main>
 
 
-    <footer>
+    <footer class="footer footer-center bg-[#1C1C1C] text-primary-content px-10 lg:py-20 py-10">
+      <aside>
+        <div class="flex justify-center items-center gap-2">
+          <i class="fa-solid fa-arrow-right -rotate-45 text-xl flex justify-center items-center bg-[#ABEF5F] h-9 w-9  rounded-full text-black	"></i>
+          <!-- py-2 px-3 -->
+          <h3 class=" text-3xl font-bold">Rinterio</h3>
+        </div>
+        <p class="text-sm text-[#737373] font-normal lg:w-3/4 w-full">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </aside>
+      <nav>
+        <div class="grid grid-flow-row gap-4 space-y-4">
+          <ul class=" flex justify-between items-center lg:gap-20 lg:flex-row flex-col  ">
+            <li><a  class="text-base font-normal hover:font-bold delay-300" href="#">Home</a></li>
+            <li><a  class="text-base font-normal hover:font-bold delay-300" href="#">Services</a></li>
+            <li><a  class="text-base font-normal hover:font-bold delay-300" href="#">Portfolio</a></li>
+            <li><a  class="text-base font-normal hover:font-bold delay-300" href="#">Blogs</a></li>
+            <li><a  class="text-base font-normal hover:font-bold delay-300" href="#">Contact Us</a></li>
+            
+  
+          </ul>
+          
+          <div class="flex justify-center items-center gap-2 bg-[#ABEF5F] px-4 py-3 rounded-full w-[200px] mx-auto ">
+            <p class="text-[#1C1C1C] text-xl font-bold ">Book Consult</p>
+            <i class="fa-solid fa-arrow-right -rotate-45 text-lg flex justify-center items-center bg-[#1C1C1C] h-7 w-7  rounded-full text-white	"></i>
 
+          </div>
+        </div>
+      </nav>
     </footer>
     
 </body>
